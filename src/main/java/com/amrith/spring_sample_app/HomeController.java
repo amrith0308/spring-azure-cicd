@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 
     @GetMapping
-    public String getIndex() {
+    public String index() {
         return "Hello from Spring boot app";
     }
 }
